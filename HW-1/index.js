@@ -42,15 +42,6 @@ program
 
 program.parse();
 
-const options = program.opts(); //returns commands in {}
-// console.log(options);
+const options = program.opts(); 
 
 invokeAction(options);
-
-// invokeAction({action:'getContacts'});
-// invokeAction({ action: 'getContactById', id: 5 });
-// invokeAction({ action: 'removeContact', id: "W2stSFsXEiTXMqwkD952D" });
-// invokeAction({ action: 'addContact',  name: "Teodor Ruzvelt", email: "newEmail@utquamvel.net", phone: "+38(692) 802-2949" });
-// invokeAction({ action: 'updateById', id: "TFaod400bq9a2UI_miWhZ", name: "Red Naem", email: "kiri@utquamvel.net", phone: "+38(692) 802-2949" });
-
-// invokeAction(argv);
